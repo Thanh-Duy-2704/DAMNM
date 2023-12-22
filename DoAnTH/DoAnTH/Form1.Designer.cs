@@ -116,7 +116,9 @@ namespace DoAnTH
 
         private void bacSiToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+            FormBacSi frm = new FormBacSi();
+            frm.Show();
+           
         }
 
         #endregion
