@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{01253A75-8D00-4FE1-98DB-DEC0ADD44708}</ProjectGuid>
+    <ProjectGuid>{83440901-C0D7-4AA4-84E0-6E9BB1675AC3}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>DoAnTH</RootNamespace>
     <AssemblyName>DoAnTH</AssemblyName>
@@ -46,6 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CQL\CBacSi.cs" />
+    <Compile Include="CQL\CBenhNhan.cs" />
+    <Compile Include="CQL\CChiTietPhieuKham.cs" />
+    <Compile Include="CQL\CLoaiThuoc.cs" />
+    <Compile Include="CQL\CPhieuKham.cs" />
+    <Compile Include="CQL\CThuoc.cs" />
+    <Compile Include="CXL\CTruyCapDuLieu.cs" />
+    <Compile Include="CXL\CXuly.cs" />
+    <Compile Include="CXL\CXuLyBN.cs" />
+    <Compile Include="CXL\CXuLyBS.cs" />
+    <Compile Include="CXL\CXuLyCTPK.cs" />
+    <Compile Include="CXL\CXuLyLT.cs" />
+    <Compile Include="CXL\CXuLyPK.cs" />
+    <Compile Include="CXL\CXulyT.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +68,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +93,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -16,5 +16,20 @@ namespace DoAnTH
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            CTruyCapDuLieu.khoiTao().docfile();
+        }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            CTruyCapDuLieu.khoiTao().ghifile();
+        }
+
+        private void quảnLýToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

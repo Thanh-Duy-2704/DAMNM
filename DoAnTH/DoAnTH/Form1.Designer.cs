@@ -1,4 +1,6 @@
-﻿namespace DoAnTH
+﻿using System;
+
+namespace DoAnTH
 {
     partial class Form1
     {
@@ -28,13 +30,108 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.quảnLýToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bacSiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.benhNhanToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.loaiThuocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.thuocToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.phieuKhamToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuStrip1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // menuStrip1
+            // 
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.quảnLýToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.TabIndex = 1;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // quảnLýToolStripMenuItem
+            // 
+            this.quảnLýToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.bacSiToolStripMenuItem,
+            this.benhNhanToolStripMenuItem,
+            this.loaiThuocToolStripMenuItem,
+            this.thuocToolStripMenuItem,
+            this.phieuKhamToolStripMenuItem});
+            this.quảnLýToolStripMenuItem.Name = "quảnLýToolStripMenuItem";
+            this.quảnLýToolStripMenuItem.Size = new System.Drawing.Size(75, 24);
+            this.quảnLýToolStripMenuItem.Text = "Quản Lý";
+            this.quảnLýToolStripMenuItem.Click += new System.EventHandler(this.quảnLýToolStripMenuItem_Click);
+            // 
+            // bacSiToolStripMenuItem
+            // 
+            this.bacSiToolStripMenuItem.Name = "bacSiToolStripMenuItem";
+            this.bacSiToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.bacSiToolStripMenuItem.Text = "Bac Si";
+            this.bacSiToolStripMenuItem.Click += new System.EventHandler(this.bacSiToolStripMenuItem_Click);
+            // 
+            // benhNhanToolStripMenuItem
+            // 
+            this.benhNhanToolStripMenuItem.Name = "benhNhanToolStripMenuItem";
+            this.benhNhanToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.benhNhanToolStripMenuItem.Text = "Benh Nhan";
+            // 
+            // loaiThuocToolStripMenuItem
+            // 
+            this.loaiThuocToolStripMenuItem.Name = "loaiThuocToolStripMenuItem";
+            this.loaiThuocToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.loaiThuocToolStripMenuItem.Text = "Loai Thuoc";
+            // 
+            // thuocToolStripMenuItem
+            // 
+            this.thuocToolStripMenuItem.Name = "thuocToolStripMenuItem";
+            this.thuocToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.thuocToolStripMenuItem.Text = "Thuoc";
+            // 
+            // phieuKhamToolStripMenuItem
+            // 
+            this.phieuKhamToolStripMenuItem.Name = "phieuKhamToolStripMenuItem";
+            this.phieuKhamToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.phieuKhamToolStripMenuItem.Text = "Phieu Kham";
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Controls.Add(this.menuStrip1);
+            this.IsMdiContainer = true;
+            this.MainMenuStrip = this.menuStrip1;
+            this.Name = "Form1";
+            this.Text = "Quản Lý Phòng Khám";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        private void bacSiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
+
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem quảnLýToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bacSiToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem benhNhanToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem loaiThuocToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem thuocToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem phieuKhamToolStripMenuItem;
+        private EventHandler loaiThuocToolStripMenuItem_Click;
+        private EventHandler benhNhanToolStripMenuItem_Click;
+        private EventHandler thuocToolStripMenuItem_Click;
+        private EventHandler phieuKhamToolStripMenuItem_Click;
     }
 }
 
