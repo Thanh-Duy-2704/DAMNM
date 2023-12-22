@@ -31,5 +31,11 @@ namespace DoAnTH
         {
 
         }
+
+        private void benhNhanToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            FormBenhNhan frm = new FormBenhNhan();
+            frm.Show();
+        }
     }
 }

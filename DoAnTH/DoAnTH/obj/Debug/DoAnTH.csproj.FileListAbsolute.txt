@@ -40,3 +40,14 @@ D:\TH LT Win\DoAnTH\DoAnTH\obj\Debug\DoAnTH.csproj.GenerateResource.cache
 D:\TH LT Win\DoAnTH\DoAnTH\obj\Debug\DoAnTH.csproj.CoreCompileInputs.cache
 D:\TH LT Win\DoAnTH\DoAnTH\obj\Debug\DoAnTH.exe
 D:\TH LT Win\DoAnTH\DoAnTH\obj\Debug\DoAnTH.pdb
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\bin\Debug\DoAnTH.exe.config
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\bin\Debug\DoAnTH.exe
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\bin\Debug\DoAnTH.pdb
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.csproj.AssemblyReference.cache
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.Form1.resources
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.FormBenhNhan.resources
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.Properties.Resources.resources
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.csproj.GenerateResource.cache
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.csproj.CoreCompileInputs.cache
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.exe
+D:\BaoCaoOpneSource\DAMNM\DoAnTH\DoAnTH\obj\Debug\DoAnTH.pdb
